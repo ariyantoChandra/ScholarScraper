@@ -45,7 +45,7 @@ This project aims to simplify academic data collection for intelligent informati
 
 
 ## Disclaimer
-> ![WARNING]
+> [!WARNING]
 This tool is intended **for educational and research purposes only**.
 Google Scholar does not provide an official public API, so excessive or automated requests may violate its terms of service. Please use responsibly.
 
