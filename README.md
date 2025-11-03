@@ -7,6 +7,21 @@
 
 > Simple Scholar search engine from Google Scholar.
 
+@import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false}
+
+<!-- code_chunk_output -->
+
+- [ScholarScraper](#scholarscraper)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [How It Works](#how-it-works)
+  - [Tech Stack](#tech-stack)
+  - [Disclaimer](#disclaimer)
+
+<!-- /code_chunk_output -->
+
+
+
 ## Overview
 
 **ScholarScraper** is a lightweight Python-based tool designed to extract academic publication data directly from **Google Scholar**. It provides a simple interface to search for research papers, collect metadata such as titles, authors, publication years, citation counts, and links, and structure them into a usable format for analysis or integration into larger projects.
