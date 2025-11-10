@@ -7,7 +7,9 @@
 
 > Simple Scholar search engine from Google Scholar.
 
+<!-- 
 @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false}
+-->
 
 <!-- code_chunk_output -->
 
@@ -15,6 +17,7 @@
   - [Overview](#overview)
   - [Features](#features)
   - [How It Works](#how-it-works)
+  - [Evaluating How Google Scholar's Work](#evaluating-how-google-scholars-work)
   - [Tech Stack](#tech-stack)
   - [Disclaimer](#disclaimer)
 
@@ -41,7 +44,6 @@ This project aims to simplify academic data collection for intelligent informati
 * **Export capability** – Save extracted data into CSV or JSON formats for further processing.
 * **Lightweight and fast** 
 
-
 ## How It Works
 
 1. The user inputs a search query.
@@ -49,7 +51,8 @@ This project aims to simplify academic data collection for intelligent informati
 3. It parses the HTML using **Selenium** to extract structured data (titles, authors, citations, etc.).
 4. Results are stored in a **Pandas DataFrame**, allowing easy export and analysis.
 
-
+## Evaluating How Google Scholar's Work
+Evaluating google scholar's web page and how the page work is crucial for automation information retrieval. The evaluation can be accessed [here](documentation/evaluate_web_page.md).
 ## Tech Stack
 
 * **Python 3.13**
