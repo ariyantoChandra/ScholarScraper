@@ -1,8 +1,6 @@
 import json
-from typing import Dict
 
-
-class Paper:
+class ScholarPaper:
     def __init__(
         self,
         title: str,
@@ -47,7 +45,7 @@ class Paper:
             raise ValueError("Authors must be a string.")
         self.__authors = authors.strip()
 
-    def to_dict(self) -> Dict[str, str]:
+    def to_dict(self) -> dict:
         return {
             "title": self.__title,
             "link": self.__link,

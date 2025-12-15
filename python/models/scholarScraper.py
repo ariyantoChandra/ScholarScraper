@@ -1,6 +1,6 @@
 # Project models
 from models.scholarScraperConfig import ScholarScraperConfig
-from models.paper import Paper
+from models.scholarPaper import ScholarPaper
 
 # Selenium imports
 from selenium import webdriver
@@ -128,7 +128,7 @@ class ScholarScraper:
             link_result = title.get_attribute("href")
             authors = self.scrape_paper_authors(node)
             description = node.find_element(By.CSS_SELECTOR, "div.gs_rs").text.strip()
-            papers.append(Paper(title_result, link_result, description, authors))
+            papers.append(ScholarPaper(title_result, link_result, description, authors))
 
         if output_format=="json":
             return [paper.to_json() for paper in papers]
