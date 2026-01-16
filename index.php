@@ -109,7 +109,7 @@
                             <td class="center-align">${paper.year}</td>
                             <td>${paper.journal}</td>
                             <td class="center-align">${paper.citations}</td>
-                            <td class="col-link"><a href="${paper.link}" target="_blank">Buka Link</a></td>
+                            <td class="col-link"><a href="${paper.link}" target="_blank">Open</a></td>
                             <td class="col-sim center-align">${paper.similarity.toFixed(10)}</td>
                         </tr>
                     `;
